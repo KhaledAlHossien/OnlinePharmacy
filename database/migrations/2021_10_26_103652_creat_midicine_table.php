@@ -19,7 +19,7 @@ class CreatMidicineTable extends Migration
             $table->string('type', 20);
             $table->integer('price');
             $table->text('description');
-            $table->integer('company_id');
+
             $table->string('photo');
             $table->timestamps();
         });

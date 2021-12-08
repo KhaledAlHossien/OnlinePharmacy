@@ -9,7 +9,7 @@ class Mids extends Model
 {
     use HasFactory;
     protected $table = 'midicine';
-    protected $fillable = ['name', 'type', 'price', 'description', 'company_id', 'photo'];
+    protected $fillable = ['name', 'type', 'price', 'description', 'photo'];
 
     public function company()
     {
