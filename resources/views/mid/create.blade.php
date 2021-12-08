@@ -36,14 +36,14 @@ We Are MidTeamDev
       <label for="description">Discription of Mid:</label>
       <textarea class="form-control" id="description"  name="description" placeholder="Enter the Description of Mid"></textarea>
     </div>
-    <div class="form-group">
+    {{-- <div class="form-group">
       <label for="company_id">The new Company of Mid:</label>
       <select class="form-control" name="company_id">
           @foreach ($companies as $company)
           <option value="{{$company->id}}">{{$company->name}}</option>
           @endforeach
       </select>
-  </div>
+  </div> --}}
   <div class="form-group">
     <input id="photo" name="photo" type="file"  class="form-control">
     <label id="upload-label" for="photo" class="font-weight-light text-muted">Choose file</label>
