@@ -11,6 +11,7 @@
         <header>
             <nav>
                 <a href="/">List of Mid</a>
+                <a href="/mid/create">Creat</a>
                 {{-- <a href="/pages/about">About Us</a> --}}
                 @guest    
                 <a href="/pages/login">Login</a>
