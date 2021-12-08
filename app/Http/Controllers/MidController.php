@@ -55,7 +55,6 @@ class MidController extends Controller
             'type' => $request->type,
             'price' => $request->price,
             'description' => $request->description,
-
             'photo' => $photo,
         ]);
         return redirect()->back()->with('status', 'Add Successfully');
