@@ -60,3 +60,11 @@ Route::get('/admin/search_admin', [AccountController::class, 'search']);
 Route::get('/pages/illness', [MidController::class, 'illness']);
 
 Auth::routes();
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
