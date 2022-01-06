@@ -34,7 +34,7 @@ We Are MidTeamDev
             <label for="description">The new Discription of Mid:</label>
             <textarea class="form-control" id="description"  name="description" placeholder="Enter the Description of Mid">{{$mid->description}}</textarea>
         </div>
-        <div class="form-group">
+        {{-- <div class="form-group">
             <label for="company_id">The new Company of Mid:</label>
             <select class="form-control" name="company_id">
                 @foreach ($companies as $company)
@@ -45,7 +45,7 @@ We Are MidTeamDev
                 @endif
                 @endforeach
             </select>
-        </div>
+        </div> --}}
 
         <img src="/imgs/mid/{{ $mid->photo }}" width="150" height="150">
         <div class="form-group">

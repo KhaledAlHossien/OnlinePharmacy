@@ -14,7 +14,6 @@ We Are MidTeamDev
     Description:&nbsp{{ $mid->description }}<br>
     Type:&nbsp{{ $mid->type }}<br>
     Price:&nbsp{{ $mid->price }}<br>
-    Company:&nbsp{{$mid->company->name }}<br>
     <img src="/imgs/mid/{{$mid->photo}}" width="150" height="150">
 </p>
 <a href="/pages/{{$mid->id}}/order">
